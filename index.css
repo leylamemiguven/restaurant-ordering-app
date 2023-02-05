@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    font-family: 'Smythe';
+} 
+
+.spacer{
+      padding: 50px 47px;
+}
+
+/* Header */
+header {
+    font-style: normal;
+    background: url(https://images.unsplash.com/photo-1616645500344-209060c84970?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+    background-size:  cover;
+    background-position-y: -400px;
+    background-repeat: no-repeat;
+    height: 300px;
+
+    
+ 
+    color: #ffffff;
+}
+
+.title{
+    font-family: 'Sassy Frass', cursive;
+    font-size: 10rem;
+    margin: 0;
+    border-bottom: 2px solid white;
+}
+
+/* / Header */
+
+/* Menu Items */
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-icon{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 78.72px;
+    opacity: 0.72;
+    padding: 18px;
+}
+
+.item{
+    border-bottom: 1px solid #D2D2D2;
+    padding: 25px 0px;
+}
+
+.item-info, .item-name-ingredients, .price-addbtn{
+    display: flex;
+
+}
+.item-name-ingredients {
+    flex-direction: column;
+}
+
+.item-name{
+    font-size: 28px;
+}
+.item-ingredients{
+    font-size: 16px;
+    color: #8B8B8B
+}
+.item-price{
+    font-size: 20px;
+    padding: 0px 30px;
+}
+
+.add-item-button{
+    box-sizing: border-box;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.add-item-button:hover{
+    background-color: #16DB99;
+    cursor: pointer;
+    color:#ffffff;
+
+}
+
+/* Order Breakdown */
+.your-order-title{
+    text-align: center;
+    font-size: 28px;
+    line-height: 17px;
+}
+
+.ordered-item{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.ordered-item-name, .amount-ordered{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+    padding: 0px 20px;
+}
+.ordered-item-start{
+    display:flex;
+    justify-content: space-around;
+}
+.remove-item-btn{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    border:none;
+    background: none;
+    color: #BBBBBB;
+    cursor: pointer;
+
+    
+}
+
+.remove-item-btn:hover{
+    color:#c60808;
+
+
+}
+.ordered-item-price{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.total-price-title{
+    font-size: 28px;
+    line-height: 24px;  
+}
+
+.complete-order-btn, .pay-btn{
+    background: #16DB99;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    border:none;
+    width: 100%;
+    padding: 10px 27px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Verdana';
+    color: #ffffff;
+    
+}
+
+.complete-order-btn:hover, .pay-btn:hover{
+    background:#0e8b62;
+}
+
+/*  /Order Breakdown */
+
+/* Card Details Form */
+.payment-module{
+    visibility: hidden;
+}
+.card-details-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    position: fixed;
+    margin: auto;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 450px;
+    height: 450px;
+
+
+    background: #FFFFFF;
+    border-radius: 3.88991px;
+    border: 1px solid #67595e;
+
+    padding: 10px;
+
+
+}
+.card-details-title{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    text-align: center;
+
+}
+input{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+
+    color: #757575;
+    padding: 10px 20px;
+}
+
+.input-field{
+    padding: 20px;
+}
+/* /Card Details Form */
+
+/* Confirmation Message */
+.confirmationBox{
+
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin:auto;
+    /* display:none; */
+
+}
+
+.confirmationMessage{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 17px;
+    color: #065F46;
+    text-align: center;
+    padding: 20px;
+    background: #ECFDF5;
+    
+
+
+}
+/* /Confirmation Message */
+
