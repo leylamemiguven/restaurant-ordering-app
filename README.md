@@ -1,4 +1,4 @@
-![Screen Shot 2024-09-10 at 12 53 31 PM](https://github.com/user-attachments/assets/57f12a0a-84ea-447e-93dc-cd1faaf2bf92)# Restaurant Ordering App
+## Restaurant Ordering App
 
 A web application simulating online ordering from a diner menu at a restaurant.
 
