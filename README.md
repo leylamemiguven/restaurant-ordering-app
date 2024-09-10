@@ -1,6 +1,6 @@
 ## Restaurant Ordering App
 
-A web application simulating online ordering from a diner menu at a restaurant.
+A web application simulating online ordering from a diner menu at a restaurant. You can check out the application at : https://leylas-diner-ordering-app.netlify.app/ 
 
 ## Getting Started
 
