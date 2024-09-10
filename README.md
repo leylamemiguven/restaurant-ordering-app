@@ -2,7 +2,7 @@
 
 A web application simulating online ordering from a diner menu at a restaurant. You can check out the application at : https://leylas-diner-ordering-app.netlify.app/ 
 
-## Getting Started
+# Getting Started
 
 To start the project, navigate to the root directory in your terminal and run the following commands:
 
@@ -11,7 +11,7 @@ npm init
 npm start
 ```
 
-## Application Overview
+# Application Overview
 Initial View
 Upon launching the app, you'll see the diner menu with options to place an order.
 ![Screen Shot 2024-09-10 at 12 53 31 PM](https://github.com/user-attachments/assets/e4c513da-f751-4040-9294-e5ddea0afdb5)
